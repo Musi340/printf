@@ -25,6 +25,13 @@ case '%':
 i = va_arg(ap, int);
 putchar(i);
 break;
+case 'd':
+i = va_arg(ap, int); putchar(i);
+break;
+case 'i':
+i = va_arg(ap, int);
+putchar(i);
+break;
 }
 }
 va_end(ap);
