@@ -1,5 +1,6 @@
 #include "holberton.h"
 
+
 int _printf(const char *format, ...)
 {
 va_list ap;
@@ -26,7 +27,8 @@ i = va_arg(ap, int);
 putchar(i);
 break;
 case 'd':
-i = va_arg(ap, int); putchar(i);
+i = va_arg(ap, int);
+putchar(i);
 break;
 case 'i':
 i = va_arg(ap, int);
