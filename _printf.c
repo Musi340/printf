@@ -9,7 +9,7 @@ char *str;
 
 va_start(ap, format);
 i = vfprintf(stdout, format, ap);
-switch (i)
+switch (format[i])
 {
 case 'c':
 i = va_arg(ap, int);
