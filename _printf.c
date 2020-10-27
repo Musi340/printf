@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
-* _printf- formats and prints data
-* @format:list of variable arguments
-*
-*Return:i
-*/
+<<<<<<< Wendybranch
+ *_printf - produces output according to a format
+ *@format:  a character string composed of zero or more directives
+ *Return: Integer
+ */
 
 int _printf(const char *format, ...)
 {
