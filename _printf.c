@@ -18,7 +18,7 @@ va_start(ap, format);
 i = vfprintf(stdout, format, ap);
 if (format == NULL)
 {
-return(0);
+return (0);
 }
 switch (format[i])
 {
