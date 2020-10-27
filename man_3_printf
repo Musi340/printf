@@ -1,0 +1,33 @@
+.TH man_3_printf "26 October 2020" "0.32" "_printf man page"
+.SH NAME
+.B_printf - format and print data
+.SH SYNOPSIS
+
+_printf FORMAT [ARGUMENT] ...
+_printf OPTION
+
+.SH DESCRIPTION
+The function _printf produces output according to a format or executes accodring to option.  The functions _printf() and vprintf() write output to stdout,
+the standard output stream.
+
+FORMAT controls the output as in C printf. The following are th format specifiers used.
+
+--help
+display this help and exit
+--version
+output version information and exit
+
+%      format specifier when used in combination with different characters as seen below.
+
+%c     character type
+
+%s     string type
+
+%%     % character
+
+.SH SEE ALSO
+printf(3)
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Written by Mercy Nyamusi and Wendy Omondi
