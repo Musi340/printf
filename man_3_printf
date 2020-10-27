@@ -1,0 +1,23 @@
+.TH _PRINTF 1 "26 October 2020" "version 1.0"
+.SH NAME
+.B _printf 
+- prints and formats data
+
+.SH SYNOPSIS
+
+.BI "int _printf(const " "char " "*format, ...)"
+.SH OPTION
+Command doesn't take options
+
+.SH DESCRIPTION
+Prints a variable number of arguments according to FORMAT
+
+.SH BUGS
+No known bugs
+
+.SH SEE ALSO
+printf
+
+.SH AUTHORS
+Wendy and Mercy
+
