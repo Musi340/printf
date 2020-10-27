@@ -9,16 +9,17 @@
 
 int _printf(const char *format, ...)
 {
-if (format == NULL)
-{
-return(0);
-}
+
 va_list ap;
 unsigned int i;
 char *str;
 
 va_start(ap, format);
 i = vfprintf(stdout, format, ap);
+if (format == NULL)
+{
+return(0);
+}
 switch (format[i])
 {
 case 'c':
