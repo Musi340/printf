@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "holberton.h"
 /**
 * _printf- formats and prints data
@@ -44,5 +43,5 @@ putchar(i);
 break;
 }
 va_end(ap);
-return (i);
+return (i - 1);
 }
