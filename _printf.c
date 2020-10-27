@@ -14,10 +14,6 @@ char *str;
 
 va_start(ap, format);
 i = vfprintf(stdout, format, ap);
-if (i == 0)
-{
-return (0);
-}
 switch (format[i])
 {
 case 'c':
