@@ -1,8 +1,18 @@
+#include <stdlib.h>
 #include "holberton.h"
-
+/**
+* _printf- formats and prints data
+* @format:list of variable arguments
+*
+*Return: i
+*/
 
 int _printf(const char *format, ...)
 {
+if (format == NULL)
+{
+return(0);
+}
 va_list ap;
 unsigned int i;
 char *str;
