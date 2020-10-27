@@ -1,10 +1,12 @@
 #include "holberton.h"
+
+
 /**
-<<<<<<< Wendybranch
  *_printf - produces output according to a format
  *@format:  a character string composed of zero or more directives
  *Return: Integer
  */
+ 
 
 int _printf(const char *format, ...)
 {
