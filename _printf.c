@@ -15,8 +15,7 @@ char *str;
 
 va_start(ap, format);
 i = vfprintf(stdout, format, ap);
-i = i - 1;
-if (format == NULL)
+if (i == 0)
 {
 return (0);
 }
