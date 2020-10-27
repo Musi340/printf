@@ -49,7 +49,7 @@ case 'X':
 i = va_arg(ap, int);
 putchar(i);
 break;
-case 'P':
+case 'p':
 i = va_arg(ap, int);
 putchar(i);
 break;
