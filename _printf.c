@@ -16,7 +16,7 @@ char *str;
 
 va_start(ap, format);
 i = vfprintf(stdout, format, ap);
-if (format == NULL)
+if (format[i] == NULL)
 {
 return(0);
 }
