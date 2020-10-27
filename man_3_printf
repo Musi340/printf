@@ -25,6 +25,10 @@ output version information and exit
 
 %%     % character
 
+%d     signed integer
+
+%i     signed integer
+
 .SH SEE ALSO
 printf(3)
 .SH BUGS
