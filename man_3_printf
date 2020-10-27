@@ -16,25 +16,25 @@ FORMAT controls the output as in C printf. The following are th format specifier
 display this help and exit
 --version
 output version information and exit
-
+.br
 %      format specifier when used in combination with different characters as seen below.
-
+.br
 %c     character type
-
+.br
 %s     string type
-
+.br
 %%     % character
-
+.br
 %d     signed integer
-
+.br
 %i     signed integer
-
+.br
 %o     unsigned octal
-
+.br
 %u     unsigned decimal integer
-
+.br
 %x     unsigned hexadecimal integer
-
+.br
 %X     unsigned hexadecimal integer (uppercase)
 .SH SEE ALSO
 printf(3)
