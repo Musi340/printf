@@ -36,6 +36,8 @@ output version information and exit
 %x     unsigned hexadecimal integer
 .br
 %X     unsigned hexadecimal integer (uppercase)
+.br
+%p     pointer address
 .SH SEE ALSO
 printf(3)
 .SH BUGS
