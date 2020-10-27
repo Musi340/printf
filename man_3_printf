@@ -1,23 +1,46 @@
-.TH _PRINTF 1 "26 October 2020" "version 1.0"
+.TH man_3_printf "26 October 2020" "0.32" "_printf man page"
 .SH NAME
-.B _printf 
-- prints and formats data
-
+.B_printf - format and print data
 .SH SYNOPSIS
 
-.BI "int _printf(const " "char " "*format, ...)"
-.SH OPTION
-Command doesn't take options
+_printf FORMAT [ARGUMENT] ...
+_printf OPTION
 
 .SH DESCRIPTION
-Prints a variable number of arguments according to FORMAT
+The function _printf produces output according to a format or executes accodring to option.  The functions _printf() and vprintf() write output to stdout,
+the standard output stream.
 
-.SH BUGS
-No known bugs
+FORMAT controls the output as in C printf. The following are th format specifiers used.
 
+--help
+display this help and exit
+--version
+output version information and exit
+.br
+%      format specifier when used in combination with different characters as seen below.
+.br
+%c     character type
+.br
+%s     string type
+.br
+%%     % character
+.br
+%d     signed integer
+.br
+%i     signed integer
+.br
+%o     unsigned octal
+.br
+%u     unsigned decimal integer
+.br
+%x     unsigned hexadecimal integer
+.br
+%X     unsigned hexadecimal integer (uppercase)
+.br
+%p     pointer address
 .SH SEE ALSO
-printf
-
-.SH AUTHORS
-Wendy and Mercy
-
+printf(3)
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Written by Mercy Nyamusi and Wendy Omondi
