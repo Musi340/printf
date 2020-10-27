@@ -3,12 +3,11 @@
 * _printf- formats and prints data
 * @format:list of variable arguments
 *
-*Return: i
+*Return:i
 */
 
 int _printf(const char *format, ...)
 {
-
 va_list ap;
 unsigned int i;
 char *str;
