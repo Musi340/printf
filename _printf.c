@@ -15,6 +15,7 @@ char *str;
 
 va_start(ap, format);
 i = vfprintf(stdout, format, ap);
+i = i - 1;
 if (format == NULL)
 {
 return (0);
@@ -43,5 +44,5 @@ putchar(i);
 break;
 }
 va_end(ap);
-return (i - 1);
+return (i);
 }
