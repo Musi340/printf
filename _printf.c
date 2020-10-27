@@ -33,5 +33,5 @@ putchar(i);
 break;
 }
 va_end(ap);
-return (0);
+return (i);
 }
