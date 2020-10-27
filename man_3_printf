@@ -29,6 +29,13 @@ output version information and exit
 
 %i     signed integer
 
+%o     unsigned octal
+
+%u     unsigned decimal integer
+
+%x     unsigned hexadecimal integer
+
+%X     unsigned hexadecimal integer (uppercase)
 .SH SEE ALSO
 printf(3)
 .SH BUGS
