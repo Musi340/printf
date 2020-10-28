@@ -53,6 +53,10 @@ case 'p':
 i = va_arg(ap, int);
 putchar(i);
 break;
+case 'S':
+str = va_arg(ap, char *);
+puts (str);
+break;
 }
 va_end(ap);
 return (i);
